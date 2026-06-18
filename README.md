@@ -48,7 +48,6 @@ git clone https://github.com/your-username/todo-list-app.git
 ## Future Improvements
 
 * Local Storage support
-* Dark Mode
 * Task Categories
 * Task Completion Status
 * Due Dates and Reminders
