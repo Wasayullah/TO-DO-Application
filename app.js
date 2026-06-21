@@ -1,6 +1,8 @@
 var getInputs = document.getElementById("input");
 var getList = document.getElementById("list");
-
+getInputs.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") addItem();
+});
 const addItem = () => {
     if (getInputs.value.trim() === "") return;
 
